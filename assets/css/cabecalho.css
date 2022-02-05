@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0 1em;
+    background-color: #F8F9FA;
+}
+
+.navegacao__cabecalho {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+}
+
+.navegacao__cabecalho___item {
+    margin: 1em;
+    color: #f0f0f0;
+}
+
+.navegacao__cabecalho___item:first-child {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #a8a8a8;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+li:first-child{
+    border-bottom: 1px solid #000;
+}
