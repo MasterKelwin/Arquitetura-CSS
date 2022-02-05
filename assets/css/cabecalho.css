@@ -4,6 +4,7 @@ header{
     justify-content: space-between;
     padding: 0 1em;
     background-color: #F8F9FA;
+    align-items: center;
 }
 
 .navegacao__cabecalho {
@@ -13,12 +14,13 @@ header{
 }
 
 .navegacao__cabecalho___item {
-    margin: 1em;
+    margin: 0 1em;
     color: #f0f0f0;
 }
 
-.navegacao__cabecalho___item:first-child {
-    color: #000;
+a.ativo{
+    color: #333333;
+    font-weight: bold;
 }
 
 a {
@@ -37,5 +39,5 @@ a:active {
 }
 
 li:first-child{
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
 }
