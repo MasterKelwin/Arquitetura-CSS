@@ -1,7 +1,6 @@
 header{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
     padding: 0 1em;
     background-color: #F8F9FA;
     align-items: center;
@@ -40,4 +39,27 @@ a:active {
 
 li:first-child{
     border-bottom: 2px solid #000;
+}
+
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: block;
+    }
 }

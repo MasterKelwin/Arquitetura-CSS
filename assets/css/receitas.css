@@ -2,7 +2,6 @@
     display: flex;
     background: #e5e5e5;
     flex-wrap: wrap;
-    padding: 5rem 0 0 5rem;
 }
 
 .receita {
@@ -10,7 +9,6 @@
     display: flex;
     flex-flow: column;
     margin: 0 5rem 5rem 0;
-    width: calc(33.33% - 5rem);
 }
 
 .receita__imagem {
@@ -43,4 +41,37 @@
 .receita__botao:hover {
     cursor: pointer;
     background: #620404;
+}
+
+@media screen and (min-width: 0) {
+    .receita {
+        margin-right: 1rem;
+        width: 100%;
+    }
+
+    .receitas {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receita {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+
+    .receitas {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receita {
+        margin-right: 5rem;
+        width: calc(33.33% - 5rem);
+    }
+
+    .receitas {
+        padding: 5rem 0 0 5rem;
+    }
 }
